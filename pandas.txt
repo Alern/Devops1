@@ -1,0 +1,8 @@
+names = ['john','peter','alfred','pato','lucy']
+grades =[45,56,67,78,89]
+df = pd.DataFrame({'names': names, 'english': grades})
+df
+df['math'] = [87,98,78,88,77]
+df
+df['science'] = (df['math'] + df['english'])/2
+df['IRE'
